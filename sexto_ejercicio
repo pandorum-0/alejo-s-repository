@@ -1,0 +1,18 @@
+Algoritmo tilin
+	definir a Como Entero
+	Escribir"inserte un numero a"
+	Leer a;
+	definir b Como Entero
+	Escribir"inserte un numero b"
+	Leer b;
+	definir c Como Entero
+	Escribir"inserte un numero c"
+	Leer c;
+	definir d Como entero
+	Escribir"inserte un numero d"
+	Leer d;
+	sumatoria<-(a+b)-4
+	rta_inicial<-(sumatoria)^2
+	resultado<-(rta_inicial)/(c*d)
+	Escribir "el total de la operación es:" resultado
+	FinAlgoritmo
