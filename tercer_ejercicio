@@ -1,3 +1,4 @@
 Proceso ejemplo
-    Escribir “Hola Alejandro!”;
+    Definir num1 Como Entero;
+    Leer num1;
 FinProceso
