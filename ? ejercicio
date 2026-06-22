@@ -1,0 +1,24 @@
+Algoritmo Votaciones
+	Definir A, B, C Como Entero
+	Escribir "Ingrese la edad de Heidy"
+	Leer A
+	Escribir "Ingrese la edad de Julian"
+	Leer B
+	Escribir "Ingrese la edad de Kevin"
+	Leer C
+	Si A > 20 Entonces
+		Escribir "Puede votar :)"
+	SiNo
+		Escribir "Pa la casa, chino mk" 
+	Fin Si
+	Si B > 20 Entonces
+	Escribir "Puede votar :)"
+	SiNo
+		Escribir "Pa la casa, chino mk" 
+	Fin Si
+	Si C > 20 Entonces
+	Escribir "Puede votar :)"
+	SiNo
+		Escribir "Pa la casa, chino mk" 
+	Fin Si
+FinAlgoritmo
