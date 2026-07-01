@@ -1,0 +1,30 @@
+SubProceso compararEdades(n1, e1, n2, e2)
+    Escribir "Resultado de la comparación"
+
+    Si e1 > e2 Entonces
+        Escribir n1, " (", e1, " años) es mayor que ", n2, " (", e2, " años)."
+    SiNo
+
+        Si e2 > e1 Entonces
+            Escribir n2, " (", e2, " años) es mayor que ", n1, " (", e1, " años)."
+        SiNo
+            Escribir n1, " y ", n2, " tienen la misma edad."
+        FinSi
+
+    FinSi
+FinSubProceso
+
+Proceso compararDosPersonas
+    Definir nombre1, nombre2 Como Caracter
+    Definir edad1, edad2 Como Entero
+
+    // Datos de ejemplo
+    nombre1 <- "Carlos"
+    edad1 <- 45
+
+    nombre2 <- "Julieta"
+    edad2 <- 17
+
+    // Llamada al subproceso con los argumentos reales
+    compararEdades(nombre1, edad1, nombre2, edad2)
+FinProceso
