@@ -1,0 +1,16 @@
+
+SubProceso total <- calcularTotalVenta(subtotal, iva)
+    Definir total Como Real;
+    total <- subtotal + (subtotal * iva);
+FinSubProceso
+
+
+Algoritmo Principal
+    Definir pagoFinal Como Real;
+
+    // Ejecución de la función
+    pagoFinal <- calcularTotalVenta(540000, 0.19);
+
+    // El texto debe ir en una sola línea para no generar error
+    Escribir "El total a pagar con IVA es: $", pagoFinal;
+FinAlgoritmo
