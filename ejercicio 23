@@ -1,0 +1,13 @@
+SubProceso mostrarMensajeSistemas
+	// Ámbito Local: Esta variable solo existe aquí
+	Definir mensaje Como Caracter;
+	mensaje <- "Iniciando sistema... Abstracción completada.";
+	Escribir mensaje;
+FinSubProceso
+Algoritmo practica_1
+	//Ejecución principal 
+	Escribir "Llamando la función por primera vez"
+	mostrarMensajeSistemas//Se pausa el programa principal y se apila la función 
+	Escribir "llamando la función por segunda vez"
+	mostrarMensajeSistemas
+FinAlgoritmo
