@@ -1,0 +1,27 @@
+Algoritmo matriz
+	Dimension notas[3,2]
+	Definir i, j Como Entero
+	Para i <- 1 hasta 3 Hacer //recorrido por filas
+		Para j <- 1 Hasta 2 Hacer //recorrido por columnas
+			Escribir "Ingrese la nota del alumno ", i, " en el curso ", j
+			Leer notas[i,j]
+		FinPara
+	FinPara
+	// sumar las notas de la nora 1: columna = 1
+	suma <- 0 
+	Para i<- 1 hasta 3 Hacer
+		suma <- suma + notas[i, 1]
+	FinPara
+	promedio <- suma / 3
+	Escribir ""
+	Escribir "la suma de las notas del curso 1 es: ", suma
+	Escribir "El promedio del curso 1 es: ", promedio
+	suma2 <- 0
+	Para i<- 1 hasta 3 Hacer
+		suma2 <- suma2 + notas[i, 2]
+	FinPara
+	promedio2 <- suma2 / 3
+	Escribir ""
+	Escribir "la suma de las notas del curso 1 es: ", suma2
+	Escribir "El promedio del curso 1 es: ", promedio2
+FinAlgoritmo
