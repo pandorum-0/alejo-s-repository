@@ -1,0 +1,27 @@
+Algoritmo PromedioPorAlumno
+
+    Definir i, j Como Entero
+    Dimension notas[3, 2]
+    Definir suma, promedio Como Real
+
+    // Leer las notas...
+    Para i <- 1 Hasta 3 Hacer
+        Para j <- 1 Hasta 2 Hacer
+            Escribir "Nota del alumno ", i, " en examen ", j, ":"
+            Leer notas[i, j]
+        FinPara
+    FinPara
+
+    // Mostrar promedios
+    Para i <- 1 Hasta 3 Hacer
+        suma <- 0
+
+        Para j <- 1 Hasta 2 Hacer
+            suma <- suma + notas[i, j]
+        FinPara
+
+        promedio <- suma / 2
+        Escribir "Promedio del alumno ", i, ": ", promedio
+    FinPara
+
+FinAlgoritmo
