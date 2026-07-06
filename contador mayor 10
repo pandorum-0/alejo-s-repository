@@ -1,0 +1,29 @@
+Algoritmo ContadorMayor10
+	
+    Dimension notas[3, 2]
+	
+    Definir mayor, menor Como Real
+    Definir i, j Como Entero
+	
+    // Llenar la matriz
+    Para i <- 1 Hasta 3 Hacer
+        Para j <- 1 Hasta 2 Hacer
+            Escribir "Ingrese la nota del alumno ", i, " en el curso ", j, ":"
+            Leer notas[i, j]
+        FinPara
+    FinPara
+	
+    // Contar cuántas notas fueron mayores a 10
+    contador <- 0
+	
+    Para i <- 1 Hasta 3 Hacer
+        Para j <- 1 Hasta 2 Hacer
+            Si (notas[i, j] > 10) Entonces
+                contador <- contador + 1
+            FinSi
+        FinPara
+    FinPara
+	
+    Escribir "Cantidad de notas > 10: ", contador
+	
+FinAlgoritmo
