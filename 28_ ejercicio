@@ -1,0 +1,11 @@
+Algoritmo matriz_bonita
+	Definir matriz Como Entero
+	Dimensionar matriz[3, 2]
+	para i <- 1 hasta 3 Hacer
+		para j <- 1 hasta 2 Hacer
+			Escribir "la nota del alumno ", i , " en el curso ", j,  ":"
+			leer matriz[i, j]
+		FinPara
+		
+	FinPara
+FinAlgoritmo
