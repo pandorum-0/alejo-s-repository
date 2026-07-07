@@ -1,0 +1,6 @@
+Para i<- 1 hasta 5 Hacer
+		total_notas <- total_notas + cuadro_materias[i, 1]
+		para j <- 1 hasta 4 Hacer
+			suma <- suma + cuadro_materias[i, j]
+		FinPara
+	FinPara
